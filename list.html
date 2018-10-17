@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RYBlist</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="wrap">
+      <div class="header">
+          <div class="memberManage">
+               <p><a href="#">會員登入</a>&nbsp; <a href="#">註冊</a><a href="#"><img src="img/cart.png" /></a><input id="search-box" type="text" name="search-box" /></p>
+          </div>
+            <div class="logo">
+               <a href="index.html"><img src="img/LOGO.png"/></a>
+            </div>
+            <div class="classification">
+                <ul>
+ <li><a href="list.html">MEN</a>
+
+                             <ul>
+                               <li><a href="list.html">Running</a></li>
+                               <li><a href="#">Training</a></li>
+                               <li><a href="#">Soccer</a></li>
+                               <li><a href="#">Sneakers</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#">WOMEN</a>
+                             <ul>
+                               <li><a href="#">Ballerinas</a></li>
+                               <li><a href="#">Running</a></li>
+                               <li><a href="#">Training</a></li>
+                               <li><a href="#">Platforms</a></li>
+                               <li><a href="#">Sneakers</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#">KID</a>
+                             <ul>
+                               <li><a href="#">Boys</a></li>
+                               <li><a href="#">Girls</a></li>
+                               
+                             </ul>
+
+                        </li>
+
+                        <li><a href="#">熱門</a></li>
+                        <li><a href="#">休閒</a></li>
+                        <li><a href="#">運動</a>
+                             <ul>
+                               <li><a href="list.html">Running</a></li>
+                               <li><a href="#">Training</a></li>
+                               <li><a href="#">Soccer</a></li>
+                               <li><a href="#">Sneakers</a></li>
+                               <li><a href="#">Golf</a></li>
+                               <li><a href="#">Motorsport</a></li>
+                               <li><a href="#">Sandals</a></li>
+                             </ul>
+
+                        </li>
+                        <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+      </div>
+      <div class="content">
+            <div class="menu">
+          <div class="category">
+              <div class="title">
+                 MEN
+              </div>
+              
+                <ul>
+                    <li>
+                    <dl>
+                        <dt><a href="#">Running</a></dt>
+                        <dd><a href="#">Speed</a></dd>
+                        <dd><a href="#">Stability</a></dd>
+                        <dd><a href="#">Neutral</a></dd>
+                    </dl>
+                    </li>
+                    <li>
+                    <dl>
+                        <dt><a href="#">Training</a></dt>
+                    </dl>
+                    </li>
+                    <li>
+                    <dl>
+                        <dt><a href="#">Soccer</a></dt>
+                        <dd><a href="#">Outdoor</a></dd>
+                        <dd><a href="#">Indoor</a></dd>
+                    </dl>
+                    </li>
+                    <li>
+                    <dl>
+                        <dt><a href="#">Sneakers</a></dt>
+                        <dd><a href="#">Lows</a></dd>
+                        <dd><a href="#">Mids</a></dd>
+                    </dl>
+                    </li>
+                </ul>
+            </div>    
+            <div class="select">
+                <div class="filter">篩選Filter By</div>
+                
+                <div class="selectColor">顏色COLOR<br><br>
+                    <table>
+                    <tr>
+                        <td><a href="#"><div class="color" style="background-color: red;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: #696969;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: black;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: white;"></div></a>
+                        </td>
+                    <tr>
+                        <td><a href="#"><div class="color" style="background-color: #4b0082;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: #ff00ff;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: orange;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color: yellow;"></div></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"><div class="color" style="background-color: blue;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color:green;"></div></a>
+                        </td> 
+                        <td><a href="#"><div class="color" style="background-color: #b22222;"></div></a>
+                        </td>
+                        <td><a href="#"><div class="color" style="background-color:#deb887;"></div></a>
+                        </td> 
+                    </tr>
+                    </table>
+                </div>
+                <div class="selectPrice">價格PRICE<br><br>
+                <div class="input">
+                    <input id="price" type="text" name="minprice " placeholder="NT$最小值" />
+                    <div class="price"><img src="img/arrow.png" /></div>
+                    <input id="price" type="text" name="maxprice" placeholder="NT$最大值" />
+                </div>
+                <div class="output">
+                    <input id="submit" type="submit" name="pricesubmit" value="送出" />
+                </div>
+                </div>
+                <div class="selectSize">尺寸SIZE<br><br>
+                <ul>
+                    <li>US</li>
+                    <li>UK</li>
+                    <li>JP</li>
+                </ul><br>
+                <table>
+                    <tr>
+                        <td><div class="size"><a href="#">4.5</a></div></td>
+                        <td><div class="size"><a href="#">5.0</a></div></td>
+                        <td><div class="size"><a href="#">5.5</a></div></td>
+                        <td><div class="size"><a href="#">6.0</a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="size"><a href="#">6.5</a></div></td>
+                        <td><div class="size"><a href="#">7.0</a></div></td>
+                        <td><div class="size"><a href="#">7.5</a></div></td>
+                        <td><div class="size"><a href="#">8.0</a></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="size"><a href="#">8.5</a></div></td>
+                        <td><div class="size"><a href="#">9.0</a></div></td>
+                        <td><div class="size"><a href="#">9.5</a></div></td>
+                        <td><div class="size"><a href="#">10.0</a></div></td>
+                    </tr>
+                </table>
+                </div>
+          </div>
+            </div>
+        <div class="mainContent">
+          <div class="ad">
+                 <img src="http://placehold.it/980x600" />
+              
+          </div>
+            
+            <div class="productList">
+                
+                <div class="product">
+                          <a href="#"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="new">
+                        <img src="img/NEW.png" />
+                    </div>
+                    <div class="productName">
+                       <a href="#">基本款BOOST  克利馬鞋</a>
+                       <p>男性Running&nbsp;&nbsp;NTD$2500</p>
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: blue;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: red;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: white;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                    
+                </div> 
+                <div class="product">
+                  <a href="#"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="new">
+                        <img src="img/NEW.png" />
+                    </div>
+                    <div class="productName">
+                      <a href="#">基本款BOOST 系列鞋</a>
+                      <p>男性Running&nbsp;&nbsp;NTD$3400</p>
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: gray;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: black;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: red;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                </div> 
+                <div class="product">
+                     <a href="#"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="productName">
+                      <a href="#">艾迪庫米鞋</a><br>
+                      <p>男性Running&nbsp;&nbsp;NTD$2800</p>
+
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: green;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: red;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: black;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                </div> 
+                <div class="product">
+                   <a href="#"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="productName">
+                      <a href="#">BOOST系列能量鞋</a><br>
+                      <p>男性Running&nbsp;&nbsp;NTD$2800</p>
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: green;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: red;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: blue;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                </div> 
+                <div class="product">
+                    <a href="#"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="productName">
+                      <a href="#">超新星滑翔鞋</a><br>
+                      <p>男性Running&nbsp;&nbsp;NTD$4000</p>
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: green;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: blue;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: black;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="information.html"><img src="http://placehold.it/230x166" /></a>
+                    <div class="favorite">
+                        <a href="#"><img src="img/heart.png" /></a>
+                    </div>
+                    <div class="productName">
+                      <a href="information.html">超級涼爽系列 通風鞋</a>
+                      <p>男性Running&nbsp;&nbsp;NTD$3800</p>
+                    </div>
+                    <div class="productColor">
+                        <table>
+                           <tr>
+                              <td><a href="#"><div class="color" style="background-color: red;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: black;"></div></a></td>
+                              <td><a href="#"><div class="color" style="background-color: gray;"></div></a></td>
+                           </tr>
+                        </table>
+                    </div>
+                </div> 
+                
+               <div class="loadmore" onclick="location.href='#'"><a href="#">載入更多商品</a></div>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+      </div>    
+        <div class="footer">
+            <div class="buttomlogo">
+                <div class="RYB">
+                    <img src="img/RYB.png" />
+                </div>
+                <div class="share">
+                    <a href="#"><img src="img/facebook.png" /></a>
+                    <a href="#"><img src="img/twitter.png" /></a>
+                    <a href="#"><img src="img/instagram.png" /></a>
+                </div>
+            </div>
+            <div class="infro">
+                <p><a href="#">關於公司</a></p>
+            </div>
+            <div class="infro">
+                <p><a href="#">常見問題</a></p>
+                <p><a href="#">尺寸對照</a></p>
+                <p><a href="#">退換貨說明</a></p>
+            </div>
+            <div class="infro">
+                <p><a href="#">服務條款</a></p>
+            </div>
+            <div class="contact">
+                <ul>
+                   <li>聯絡方式:XX市XX區XXXXX路XXX號</li>
+                   <li>Email:RYB@XXX.com</li>
+                   <li>客服電話:XX-XXXXXXX</li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+             
+        </div>  
+        <div class="clear"></div>
+  </div>
+</body>
+</html>
